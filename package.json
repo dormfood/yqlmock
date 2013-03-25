@@ -1,0 +1,34 @@
+{
+  "author": "Steven ChengHan Lu <chenghan@yahoo-inc.com>",
+  "name": "yqlmock",
+  "description": "Provide Mock Object of YQL to developers so they can mock YQL responses in unit tests.",
+  "version": "0.0.6",
+  "main": "yqlmock.js",
+  "dependencies": {},
+  "devDependencies": {
+    "ytestrunner": "*",
+    "yui": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "-postinstall": "scripts/copy_module.sh",
+    "test": "ytestrunner --yui3 -c --yconfig test/config.js --exclude test/config.js"
+  },
+  "yahoo": {
+    "custodian":{
+      "email": "godmother-devel@yahoo-inc.com",
+      "url": "https://github.com/luchenghan/yqlmock"
+      },
+    "mojito": {
+      "type": "bundle",
+      "version": "*"
+    },
+    "bugzilla": {
+        "product": "Mobile",
+        "component": "General"
+    }
+  }
+}
