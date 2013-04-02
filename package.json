@@ -13,10 +13,6 @@
   "engines": {
     "node": "*"
   },
-  "scripts": {
-    "-postinstall": "scripts/copy_module.sh",
-    "test": "ytestrunner --yui3 -c --yconfig test/config.js --exclude test/config.js"
-  },
   "yahoo": {
     "custodian":{
       "email": "godmother-devel@yahoo-inc.com",

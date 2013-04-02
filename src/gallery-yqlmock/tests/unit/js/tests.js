@@ -4,9 +4,9 @@
 
 /*global YUITest*/
 
-YUI.add('yqlmock-test', function (Y, NAME) {
+YUI.add('module-tests', function (Y) {
     'use strict';
-    var suite = new Y.Test.Suite(NAME),
+    var suite = new Y.Test.Suite('gallery-yqlmock'),
         A = YUITest.Assert,
         yqlmock;
 
@@ -182,4 +182,4 @@ YUI.add('yqlmock-test', function (Y, NAME) {
         }
     }));
     Y.Test.Runner.add(suite);
-}, '0.0.1', {requires: ['test', 'yqlmock']});
+}, '', {requires: ['test']});

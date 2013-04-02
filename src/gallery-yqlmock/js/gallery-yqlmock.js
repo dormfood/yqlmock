@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2012 Yahoo! Inc. All rights reserved.
+ * Copyright (c) 2013 Yahoo! Inc. All rights reserved.
  */
 
 /*global YUITest*/
